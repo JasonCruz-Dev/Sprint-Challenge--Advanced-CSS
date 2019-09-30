@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+   Adaptive design is when the browser detects what device you are on and fetches the pre-made design for that device.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+   While responsive design is when the same design is used across all devices, it just scales based off of the size of the device screen. Where as desktop its used 100% of what the screen is.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+   Allows me to divide by 10, to use rem. Rem is defined as the font-size of the root element. So, all references to rem will return the same value, regardless of ancestor font size.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+   Preprocessing takes CSS and turns it into a compiled language like Python or C++. It makes things more DRY  "Dont Repeat Yourself".
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+   Allows me code LESS, but also allows me utilize DRY "Dont Repeat Yourself"
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -66,11 +76,11 @@ Follow these steps for completing your project.
 
 ### Preprocessor Set up
 
-* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
-* [ ] Open your terminal and navigate to your preprocessing project by using the `cd` command
-* [ ] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
-* [ ] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
-* [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
+* [X] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
+* [X] Open your terminal and navigate to your preprocessing project by using the `cd` command
+* [X] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
+* [X] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
+* [X] Once you see the red screen, you can delete that style and you're ready to start on the next task
 
 ## Minimum Viable Product
 
